@@ -1,0 +1,8 @@
+path1=int(input())
+bin=[int(i) for i in input().split()]
+pest1=0
+for p in range(path):
+   for j in range(p):
+      if bin[j]<bin[p]:
+         pest1+=bin[j]
+print(pest1)
