@@ -6,7 +6,7 @@ for h in range(0,p):
 ven1=[]
 for h in zip(*o):
  if(h.count(h[0])==len(h)):
-  ven.append(h[0])
+  ven1.append(h[0])
  else:
   break
 print(''.join(ven1))
